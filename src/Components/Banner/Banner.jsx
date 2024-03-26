@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="bg-[#1313130D] mx-24 rounded-3xl mt-12">
+        <div id="hide-me" className="bg-[#1313130D] mx-24 rounded-3xl mt-12">
             <div className="flex justify-center gap-24 items-center py-24">
                 <div> 
                     <h1 className="text-[#131313] playfair text-[56px] font-semibold mb-12">Books to freshen up <br /> your bookshelf</h1>

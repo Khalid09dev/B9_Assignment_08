@@ -11,7 +11,7 @@ const Carts = () => {
     }, [])
 
     return (
-        <div className="pb-44">
+        <div id="hide-me-too" className="pb-36">
             <h3 className="text-[#131313] text-center text-[40px] font-semibold playfair pt-20 pb-9">Books</h3>
             <div className="flex justify-center">
             <div className="grid grid-cols-3 gap-6">

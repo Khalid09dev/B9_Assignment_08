@@ -2,92 +2,101 @@
         {
         "ID": "001",
         "Image": "https://i.postimg.cc/6pK0Tr14/pngwing-1.png",
-        "Category1": ["Fiction"],
-        "Category2": ["Adventure"],
+        "tag1": ["Fiction"],
+        "tag2": ["Adventure"],
         "Title": "The Shadow of Tomorrow",
         "Author": "Jessica Alder",
-        "Book_Type": "Fiction",
-        "Ratings": 4.2
+        "Category": "Fiction",
+        "Ratings": 4.2,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "002",
         "Image": "https://i.postimg.cc/Y9FG1Vvr/kindpng-7318921.png",
-        "Category1": ["Mystery"],
-        "Category2": ["Suspense"],
+        "tag1": ["Mystery"],
+        "tag2": ["Suspense"],
         "Title": "The Crimson Cipher",
         "Author": "Max Sterling",
-        "Book_Type": "Fiction",
-        "Ratings": 4.5
+        "Category": "Non-Fiction",
+        "Ratings": 4.5,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "003",
         "Image": "https://i.postimg.cc/SN1SxdKD/kindpng-1064993.png",
-        "Category1": ["Romance"],
-        "Category2": ["Contemporary"],
+        "tag1": ["Romance"],
+        "tag2": ["Contemporary"],
         "Title": "Love's Eternal Flame",
         "Author": "Emily Brooks",
-        "Book_Type": "Fiction",
-        "Ratings": 4.0
+        "Category": "Mistery",
+        "Ratings": 4.0,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "004",
         "Image": "https://i.postimg.cc/mDpXHPFf/kindpng-4022054-1.png",
-        "Category1": ["Science Fiction"],
-        "Category2": ["Space Opera"],
+        "tag1": ["Science Fiction"],
+        "tag2": ["Space Opera"],
         "Title": "Beyond the Stars",
         "Author": "David Blake",
-        "Book_Type": "Fiction",
-        "Ratings": 4.8
+        "Category": "Fantacy",
+        "Ratings": 4.8,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "005",
         "Image": "https://i.postimg.cc/YqzX6DFz/kindpng-81724-1.png",
-        "Category1": ["Fantasy"],
-        "Category2": ["Magic"],
+        "tag1": ["Fantasy"],
+        "tag2": ["Magic"],
         "Title": "The Chronicles of Eldoria",
         "Author": "Samantha Knight",
-        "Book_Type": "Fiction",
-        "Ratings": 4.6
+        "Category": "Science Fiction",
+        "Ratings": 4.6,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "006",
         "Image": "https://i.postimg.cc/HW40RcLp/kindpng-2193744-1.png",
-        "Category1": ["Thriller"],
-        "Category2": ["Crime"],
+        "tag1": ["Thriller"],
+        "tag2": ["Crime"],
         "Title": "Shattered Trust",
         "Author": "Ryan Black",
-        "Book_Type": "Fiction",
-        "Ratings": 4.3
+        "Category": "History",
+        "Ratings": 4.3,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "007",
         "Image": "https://i.postimg.cc/rmqsrm2J/kindpng-5624060-1.png",
-        "Category1": ["Historical Fiction"],
-        "Category2": ["Drama"],
+        "tag1": ["Historical Fiction"],
+        "tag2": ["Drama"],
         "Title": "Echoes of the Past",
         "Author": "Hannah Ford",
-        "Book_Type": "Fiction",
-        "Ratings": 4.1
+        "Category": "Self Development",
+        "Ratings": 4.1,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "008",
         "Image": "https://i.postimg.cc/SKkkZv1Q/kindpng-2592315-1.png",
-        "Category1": ["Horror"],
-        "Category2": ["Supernatural"],
+        "tag1": ["Horror"],
+        "tag2": ["Supernatural"],
         "Title": "The Haunting Shadows",
         "Author": "Alex Darkwood",
-        "Book_Type": "Fiction",
-        "Ratings": 4.7
+        "Category": "Money Management",
+        "Ratings": 4.7,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         },
         {
         "ID": "009",
         "Image": "https://i.postimg.cc/Ls9FkZhn/kindpng-4945926-1.png",
-        "Category1": ["Self-Help"],
-        "Category2": ["Motivational"],
+        "tag1": ["Self-Help"],
+        "tag2": ["Motivational"],
         "Title": "Finding Your Inner Strength",
         "Author": "Sarah Bright",
-        "Book_Type": "Fiction",
-        "Ratings": 4.4
+        "Category": "Poetry",
+        "Ratings": 4.4,
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
         }
     ]
     
