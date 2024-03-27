@@ -1,23 +1,30 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { savebookdetail } from "../../Utilities/LocalStorage";
 
 const BookDetails = () => {
     const books = useLoaderData();
     const {bookId} = useParams();
-    const idInt = parseInt(bookId)
-    const book = books.find(book => book.ID == idInt);
+    // const idInt = parseInt(bookId)
+    const book = books.find(book => book.ID == bookId);
 
     const x = document.getElementById('footer');
-    x.classList.add('fixed', 'bottom-0');
+    x.classList.add('fixed', 'bottom-0', 'hidden');
 
     const a = document.getElementById('hide-me');
     a.classList.add('hidden');
     const b = document.getElementById('hide-me-too');
     b.classList.add('hidden');
 
-    const notify = () => toast.success('Book Added To Read List');
-    const notify2 = () => toast.success('Book Added To Wishlist');
+    const notify = () => {
+        savebookdetail(bookId)
+        toast.success('Book Added To Read List');
+    }
+    const notify2 = () => {
+        savebookdetail(bookId);
+        toast.success('Book Added To Wishlist');
+    }
 
     const {Title, Image, tag1, tag2, Author, Category, Ratings, Review, pages_number, publisher, publishing_year} = book;
     return (

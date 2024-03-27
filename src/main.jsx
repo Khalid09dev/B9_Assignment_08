@@ -15,18 +15,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
-        path: '/listedbooks',
-        element: <ListedBooks></ListedBooks>
-      },
-      {
         path: '/bookdetails/:bookId',
         element: <BookDetails></BookDetails>,
         loader: () => fetch('books.json'), 
       },
       {
+        path: '/listedbooks',
+        loader: () => fetch('books.json'),
+        element: <ListedBooks></ListedBooks>
+      },
+      {
         path: '/pagestoread',
         element: <PagesToRead></PagesToRead>
-      }
+      },
     ]
   }, 
 ])

@@ -5,7 +5,7 @@ const Carts = () => {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/Khalid09dev/bookvibe-api/main/books.json')
+        fetch('books.json')
         .then(res => res.json())
         .then(data => setBooks(data))
     }, [])
