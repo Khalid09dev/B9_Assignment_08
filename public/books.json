@@ -8,7 +8,11 @@
         "Author": "Jessica Alder",
         "Category": "Fiction",
         "Ratings": 4.2,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": "Evaluate the coherence, depth, and originality of the plot. Discuss the pacing, twists, and overall narrative structure, highlighting any engaging elements or areas of improvement, and how they contribute to the story's resonance.",
+        "pages_number": 325,
+        "publisher": "Summit Books",
+        "publishing_year": 2010
         },
         {
         "ID": "002",
@@ -19,7 +23,11 @@
         "Author": "Max Sterling",
         "Category": "Non-Fiction",
         "Ratings": 4.5,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": " Analyze the complexity, realism, and growth of the characters throughout the book. Discuss their motivations, relationships, and any notable character arcs or inconsistencies, delving into their psychological depth and evolution.",
+        "pages_number": 210,
+        "publisher": "Golden Hill Press",
+        "publishing_year": 2005
         },
         {
         "ID": "003",
@@ -30,7 +38,11 @@
         "Author": "Emily Brooks",
         "Category": "Mistery",
         "Ratings": 4.0,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": " Assess the author's prose, language choices, and descriptive abilities. Discuss the readability, elegance, and effectiveness of the writing style in conveying the story and evoking emotions, while also considering its potential impact on reader engagement.",
+        "pages_number": 480,
+        "publisher": "Starlight Publications",
+        "publishing_year": 2018
         },
         {
         "ID": "004",
@@ -41,7 +53,11 @@
         "Author": "David Blake",
         "Category": "Fantacy",
         "Ratings": 4.8,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": " Explore the underlying themes, messages, and symbolism present in the book. Discuss the author's exploration of relevant social, cultural, or philosophical ideas and their impact on the reader, as well as their resonance in contemporary contexts.",
+        "pages_number": 150,
+        "publisher": "Evergreen Press",
+        "publishing_year": 2013
         },
         {
         "ID": "005",
@@ -52,7 +68,11 @@
         "Author": "Samantha Knight",
         "Category": "Science Fiction",
         "Ratings": 4.6,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": "Reflect on the book's ability to evoke emotions such as joy, sadness, fear, or empathy. Discuss any memorable scenes or moments that left a lasting impression on you as a reader, and analyze how the author achieves emotional resonance.",
+        "pages_number": 400,
+        "publisher": "Blue Sky Publishing",
+        "publishing_year": 2008
         },
         {
         "ID": "006",
@@ -63,7 +83,11 @@
         "Author": "Ryan Black",
         "Category": "History",
         "Ratings": 4.3,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": "Evaluate the pacing of the book, including its ability to maintain tension, balance exposition with action, and transition between scenes or chapters smoothly. Discuss the effectiveness of the book's structure in keeping the reader engaged, considering its impact on narrative momentum.",
+        "pages_number": 275,
+        "publisher": "Silver Birch Books",
+        "publishing_year": 2015
         },
         {
         "ID": "007",
@@ -74,7 +98,11 @@
         "Author": "Hannah Ford",
         "Category": "Self Development",
         "Ratings": 4.1,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": " Examine the vividness, authenticity, and immersive quality of the book's setting. Discuss how the author creates atmosphere through descriptions of time, place, and atmosphere, and how it enriches the reader's experience.",
+        "pages_number": 360,
+        "publisher": "Moonbeam Press",
+        "publishing_year": 2007
         },
         {
         "ID": "008",
@@ -85,7 +113,11 @@
         "Author": "Alex Darkwood",
         "Category": "Money Management",
         "Ratings": 4.7,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": " Examine the vividness, authenticity, and immersive quality of the book's setting. Discuss how the author creates atmosphere through descriptions of time, place, and atmosphere, and how it enriches the reader's experience.",
+        "pages_number": 240,
+        "publisher": "Crystal Clear Publishers",
+        "publishing_year": 2019
         },
         {
         "ID": "009",
@@ -96,7 +128,11 @@
         "Author": "Sarah Bright",
         "Category": "Poetry",
         "Ratings": 4.4,
-        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png"
+        "Star": "https://i.postimg.cc/R0hkxSvF/Frame.png",
+        "Review": "Assess the book's originality, creativity, and ability to offer a fresh perspective or unique take on familiar themes or genres. Discuss any innovative storytelling techniques or narrative devices employed by the author, and their contribution to the book's overall impact.",
+        "pages_number": 185,
+        "publisher": "Sunflower Books",
+        "publishing_year": 2011
         }
     ]
     

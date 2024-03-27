@@ -17,7 +17,7 @@ const Navbar = () => {
 
     const visible = () => {
         const x = document.getElementById('footer');
-        x.classList.remove('fixed', 'bottom-0');
+        x.classList.remove('fixed', 'bottom-0', 'hidden');
 
         const a = document.getElementById('hide-me');
         a.classList.remove('hidden');
@@ -32,8 +32,8 @@ const Navbar = () => {
                 <div>
                     <ul className="flex items-center gap-4">
                         <Link to='/' onClick={visible} className="text-[#23BE0A] sans text-[18px] px-5 py-2 border border-[#23BE0A] rounded-lg font-medium hover:bg-[#23BE0A] hover:text-white duration-150">Home</Link>
-                        <Link to='/about' onClick={hide} className="text-[#131313CC] sans text-[17px] font-normal px-4 py-3 rounded-lg hover:bg-gray-300 duration-150"><a href="#">Listed Books</a></Link>
-                        <li className="text-[#131313CC] sans text-[17px] font-normal px-4 py-3 rounded-lg hover:bg-gray-300 duration-150"><a href="#">Pages To Read</a></li>
+                        <Link to='/listedbooks' onClick={hide} className="text-[#131313CC] sans text-[17px] font-normal px-4 py-3 rounded-lg hover:bg-gray-300 duration-150"><a href="#">Listed Books</a></Link>
+                        <Link to="/pagestoread" className="text-[#131313CC] sans text-[17px] font-normal px-4 py-3 rounded-lg hover:bg-gray-300 duration-150"><a href="#">Pages To Read</a></Link>
                     </ul>
                 </div>
                 <div className="flex gap-4">

@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
 
 const Cart = ({book}) => {
-    const {Title, Image, tag1, tag2, Author, Category, Ratings, Star} = book;
+    const {ID,Title, Image, tag1, tag2, Author, Category, Ratings, Star} = book;
     
+
+    const hidefooterdetails = () => {
+        const footer = document.getElementById('footer');
+        footer.classList.add('hidden');
+    }
     // Category.map((catego, idx) => <p key={idx} catego={catego}></p>);
     return (
-        <div className="border p-6 rounded-[16px]">
+        <Link onClick={hidefooterdetails} to={`/bookdetails/${ID}`} className="border p-6 rounded-[16px]">
             <div>
                 <div className="flex justify-start"><img className="bg-[#F3F3F3] px-24 py-10 rounded-lg" src={Image} alt="#" /></div>
                 <div className="flex items-center pt-6 gap-4">
@@ -21,7 +27,7 @@ const Cart = ({book}) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 
